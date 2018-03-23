@@ -1,7 +1,7 @@
 class Backer
   attr_accessor :name
 
-  @backed_projects = []
+  @backed_projects = Array.new
 
   def initialize(name)
     @name = name
